@@ -1,19 +1,17 @@
 .rating {
-    font-size: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
 
 .star {
-    color: #ccc;
     cursor: pointer;
-    transition: color 0.3s;
+    font-size: 3rem;
+    color: gold;
+    transition: color 0.2s;
 }
 
 .star:hover,
 .star:hover ~ .star {
-    color: #ffcc00;
+    content: url('img/star.png');
 }
-
-.star.active {
-    color: #ffcc00;
-}
-/* Пиши стили тут */
