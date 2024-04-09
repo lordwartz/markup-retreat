@@ -1,1 +1,19 @@
+.rating {
+    font-size: 24px;
+}
+
+.star {
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.star:hover,
+.star:hover ~ .star {
+    color: #ffcc00;
+}
+
+.star.active {
+    color: #ffcc00;
+}
 /* Пиши стили тут */
